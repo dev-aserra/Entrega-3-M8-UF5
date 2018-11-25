@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+    <title>Entrega 03: SMX2-M08-UF5</title>
+    <meta charset="UTF-8">
+    <meta name="author" content="Aleix Serra Recolons">
+    <meta name="description" content="Tercera entrega d'HTML">
+    <meta name="keywords" content="educem M8 UF5 HTML SMX">
+    <link rel="shortcut icon" href="../fav.ico">
+</head>
+<body>
+    <header>
+        <h1 align="center">Àudios</h1>
+        <h2 align="center">by aserra</h2>
+        <nav>
+            <ul>
+                <!--En aquest cas la pàgina inicial no es troba a la mateixa ubicació que totes les altres i per tant, a la ruta relativa, pujem de carpeta-->
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="./video.html">Vídeos</a></li>
+                <li><a href="./iframe.html">Iframes</a></li>
+            </ul>
+        </nav>
+    </header>
+    <hr>
+    <section>
+        <h2 align="center">Components Àudios</h2>
+        <h3 align="center">Jazz</h3>
+        <div align="center">
+            <!--Fem una secció "div" per introduïr l'audio-->
+            <audio controls autoplay>
+                <!--Amb el tag "audio" podem incloure música a la nostre plana. Li hem afegit els atributs "controls" perquè ens apareguin els botons de pausar, volum, etc; i l'atribut "autoplay" que iniciarà l'audio automàticament quan la pàgina carregui-->
+                <source src="../aud/audio.mp3" type="audio/mpeg">
+                <source src="../aud/audio.ogg" type="audio/ogg">
+                <!--Li indiquem on trobar aquests àudios i el tipus d'arxiu que són-->
+            </audio>
+        </div>
+        <h3 align="center">Electro</h3>
+        <div align="center">
+            <audio controls>
+                <!--En aquest cas només li hem afegit els controls, sense l'autoplay-->
+                <source src="../aud/audio02.ogg" type="audio/ogg">
+            </audio>
+        </div>
+    </section>
+    <br>
+    <br>
+    <hr>
+    <footer>
+        <p align="center"><a target="_blank" href="http://www.educem.net">Web del Moodle</a></p>
+    </footer>
+</body>
+</html>

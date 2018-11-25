@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+    <title>Entrega 03: SMX2-M08-UF5</title>
+    <meta charset="UTF-8">
+    <meta name="author" content="Aleix Serra Recolons">
+    <meta name="description" content="Tercera entrega d'HTML">
+    <meta name="keywords" content="educem M8 UF5 HTML SMX">
+    <link rel="shortcut icon" href="../fav.ico">
+</head>
+<body>
+    <header>
+        <h1 align="center">IFrames</h1>
+        <h2 align="center">by aserra</h2>
+        <nav>
+            <ul>
+                <li><a href="./audio.html">Àudios</a></li>
+                <li><a href="./video.html">Vídeos</a></li>
+                <li><a href="../index.html">Home</a></li>
+            </ul>
+        </nav>
+    </header>
+    <hr>
+    <section>
+        <h2 align="center">Components IFrame</h2>
+        <h3 align="center">Youtube</h3>
+        <div align="center">
+            <!--Amb el tag "iframe" podem incrustar un altre document HTML en aquest.-->
+            <iframe src="https://www.youtube.com/embed/iNtYHswzFzM" width="640" height="480"></iframe>
+            <!--Haurem de trobar la direcció del recurs que volem mostrar. La gran part tenen la opció de compartir el vídeo, la mùsica, ubicació, etc a la pròpia web. En el cas de Youtube, haurem de treure de la direcció, la part que diu "watch?v=" i posar entremig "embed"-->
+        </div>
+        <h3 align="center">Vimeo</h3>
+        <div align="center">
+            <!--Aquí estem afegint un vídeo de Vimeo, i li establim una altura i ample de marc pel document, amb els atributs "height" i "width" respectivament-->
+            <iframe src="https://player.vimeo.com/video/195096490" width="640" height="480" frameborder="0"></iframe>
+        </div>
+        <h3 align="center">Soundcloud</h3>
+        <div align="center">
+            <!--Amb Soundcloud, quan vulguem incrustar una cançó, haurem d'anar a la opció de compartir i ens apareixerà una opció anomenada "Insertar" que ens donarà el codi HTML-->
+            <iframe src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/430987617&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"
+                width="640" height="480"></iframe>
+        </div>
+        <h3 align="center">Google Maps</h3>
+        <div align="center">
+            <!--Una ubicació de Google Maps-->
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2979.4048585686155!2d2.44037151493752!3d41.69019498513207!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12a4ccde78d1fc83%3A0x43b4fe4e8edc8e33!2sAvinguda+Verge+Montserrat%2C+19%2C+08460+Santa+Maria+de+Palautordera%2C+Barcelona!5e0!3m2!1ses-419!2ses!4v1538832296270"
+                width="640" height="480"></iframe>
+        </div>
+    </section>
+    <br>
+    <br>
+    <hr>
+    <footer>
+        <p align="center"><a target="_blank" href="http://www.educem.net">Web del Moodle</a></p>
+    </footer>
+</body>
+</html>
